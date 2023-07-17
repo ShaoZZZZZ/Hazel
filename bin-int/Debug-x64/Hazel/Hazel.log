@@ -3,4 +3,7 @@ D:\C++\Hazel\Hazel\src\Hazel\Log.h(18,42): warning C4251: “Hazel::Log::s_CoreL
 D:\C++\Hazel\Hazel\vendor\spdlog\include\spdlog\details\registry.h(34,31): message : 参见“std::shared_ptr<spdlog::logger>”的声明
 D:\C++\Hazel\Hazel\src\Hazel\Log.h(19,42): warning C4251: “Hazel::Log::s_ClientLogger”: class“std::shared_ptr<spdlog::logger>”需要有 dll 接口由 class“Hazel::Log”的客户端使用
 D:\C++\Hazel\Hazel\vendor\spdlog\include\spdlog\details\registry.h(34,31): message : 参见“std::shared_ptr<spdlog::logger>”的声明
+  Application.cpp
+  正在生成代码...
+    正在创建库 D:\C++\Hazel\bin\Debug-x64\Hazel\Hazel.lib 和对象 D:\C++\Hazel\bin\Debug-x64\Hazel\Hazel.exp
   Hazel.vcxproj -> D:\C++\Hazel\bin\Debug-x64\Hazel\Hazel.dll
