@@ -23,6 +23,7 @@ project "Hazel"		--Hazel项目
 	}
 	-- 包含目录
 	includedirs{
+		"%{prj.name}/src",
 		"%{prj.name}/vendor/spdlog/include"
 	}
 	-- 如果是window系统
@@ -68,8 +69,8 @@ project "Sandbox"
 	}
 	-- 同样包含spdlog头文件
 	includedirs{
-		"Hazel/vendor/spdlog/include",
-		"Hazel/src"
+		"Hazel/src",
+		"Hazel/vendor/spdlog/include"
 	}
 	-- 引用hazel
 	links{
