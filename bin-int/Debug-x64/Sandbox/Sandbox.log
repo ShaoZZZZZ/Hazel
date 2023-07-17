@@ -1,2 +1,17 @@
 ﻿  SandboxApp.cpp
-  Sandbox.vcxproj -> D:\C++\Hazel\bin\Debug-x64\Sandbox\Sandbox.exe
+D:\C++\Hazel\Hazel\src\Hazel\EntryPoint.h(9,9): error C3083: “Log”:“::”左侧的符号必须是一种类型
+D:\C++\Hazel\Hazel\src\Hazel\EntryPoint.h(9,14): error C2039: "Init": 不是 "Hazel" 的成员
+D:\C++\Hazel\Hazel\src\Hazel\Application.h(5,11): message : 参见“Hazel”的声明
+D:\C++\Hazel\Hazel\src\Hazel\EntryPoint.h(9,18): error C3861: “Init”: 找不到标识符
+D:\C++\Hazel\Hazel\src\Hazel\EntryPoint.h(10,9): error C3083: “Log”:“::”左侧的符号必须是一种类型
+D:\C++\Hazel\Hazel\src\Hazel\EntryPoint.h(10,14): error C2039: "GetClientLogger": 不是 "Hazel" 的成员
+D:\C++\Hazel\Hazel\src\Hazel\Application.h(5,11): message : 参见“Hazel”的声明
+D:\C++\Hazel\Hazel\src\Hazel\EntryPoint.h(10,29): error C3861: “GetClientLogger”: 找不到标识符
+D:\C++\Hazel\Hazel\src\Hazel\EntryPoint.h(11,9): error C3083: “Log”:“::”左侧的符号必须是一种类型
+D:\C++\Hazel\Hazel\src\Hazel\EntryPoint.h(11,14): error C2039: "GetCoreLogger": 不是 "Hazel" 的成员
+D:\C++\Hazel\Hazel\src\Hazel\Application.h(5,11): message : 参见“Hazel”的声明
+D:\C++\Hazel\Hazel\src\Hazel\EntryPoint.h(11,27): error C3861: “GetCoreLogger”: 找不到标识符
+D:\C++\Hazel\Hazel\src\Hazel\Log.h(18,42): warning C4251: “Hazel::Log::s_CoreLogger”: class“std::shared_ptr<spdlog::logger>”需要有 dll 接口由 class“Hazel::Log”的客户端使用
+D:\C++\Hazel\Hazel\vendor\spdlog\include\spdlog\details\registry.h(34,31): message : 参见“std::shared_ptr<spdlog::logger>”的声明
+D:\C++\Hazel\Hazel\src\Hazel\Log.h(19,42): warning C4251: “Hazel::Log::s_ClientLogger”: class“std::shared_ptr<spdlog::logger>”需要有 dll 接口由 class“Hazel::Log”的客户端使用
+D:\C++\Hazel\Hazel\vendor\spdlog\include\spdlog\details\registry.h(34,31): message : 参见“std::shared_ptr<spdlog::logger>”的声明
